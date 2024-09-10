@@ -36,6 +36,7 @@ function closeCamera() {
     video.style.display = 'none';
     closeCameraButton.style.display = 'none';
     document.getElementById('start-button').style.display = 'block';
+    hideAvatarContainer();
 }
 
 function scanQRCode() {
